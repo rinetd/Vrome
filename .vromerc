@@ -21,5 +21,5 @@ set enable_vrome_key=<C-z>
 " Disable Vrome in those sites, Multiple URLs can be separated with ‘,’
 set disablesites=mail.google.com,reader.google.com,www.inoreader.com// don't run vrome in those sites
 
-set searchengines+={"bd":"http://www.baidu.com/s?wd={{keyword}}", "yd":"http://dict.youdao.com/search?q={{keyword}}"}
-set searchengines+={"baidu":"http://www.baidu.com/s?wd={{keyword}}"}
+set searchengines+={"baidu":"http://www.baidu.com/s?wd={{keyword}}", "yd":"http://dict.youdao.com/search?q={{keyword}}"}
+set searchengines+={"bd":"http://www.baidu.com/s?wd={{keyword}}"}
