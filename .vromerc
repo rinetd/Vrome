@@ -10,8 +10,6 @@ unmap <C-v>
 " set no status line -- i.e keys don't show as you type. enabled by default
 set showstatus=0
 
-" You could also add some new searchengines without overwrite build in.
-set searchengines+={"baidu":"http://www.baidu.com/s?wd={{keyword}}"}
 
 
 " Set your hintkeys instead of the default 0123456789
@@ -23,4 +21,5 @@ set enable_vrome_key=<C-z>
 " Disable Vrome in those sites, Multiple URLs can be separated with ‘,’
 set disablesites=mail.google.com,reader.google.com,www.inoreader.com// don't run vrome in those sites
 
-set searchengines+={"baidu":"http://www.baidu.com/s?wd={{keyword}}", "dict":"http://dict.youdao.com/search?q={{keyword}}"}
+set searchengines+={"bd":"http://www.baidu.com/s?wd={{keyword}}", "yd":"http://dict.youdao.com/search?q={{keyword}}"}
+set searchengines+={"baidu":"http://www.baidu.com/s?wd={{keyword}}"}
